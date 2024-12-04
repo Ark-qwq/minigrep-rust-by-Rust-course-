@@ -1,0 +1,19 @@
+# Ignore the build directory
+/target
+
+# Ignore compiled libraries
+*.rs.bk
+
+# Ignore Cargo.lock for libraries, but not for binaries
+# Uncomment the following line if you are building a library
+# Cargo.lock
+
+# Ignore IDE-specific files
+*.idea/
+*.vscode/
+*.iml
+
+# Ignore executables
+*.exe
+*.out
+*.dSYM/
